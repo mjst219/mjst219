@@ -5,17 +5,10 @@
 				:root{
 					--var-radius:63px;
 				}
-				header{
-					width:900px;
-					height:222px;
-					background:linear-gradient(#0f172a,#1e293b 78%,rgba(30,41,59,0));
-					color:white;
-					border-top-left-radius:var(--var-radius);
-					border-top-right-radius:var(--var-radius);
-					overflow:hidden;
-					text-align:center;
-				}
-				hr{width:50%;}
+				header{text-align:center;color:black;}
+				#hr1{width:50%;}
+				#hr2{width:75%;}
+
 				#hi{
 					transform-origin:bottom center;
 					animation:hi 2.7s infinite;
@@ -35,11 +28,9 @@
 				}
 			</style>
 			<header>
-				<div class="base">
-					<h1>Hi,I'm Mojtaba <div id="hi">👋</div></h1><hr/>
-					<h2>Multidisciplinary Software Developer</h2>
-					<h3>• Linux • Backend • Systems</h3>
-				</div>
+				<h1>Hi,I'm Mojtaba <div id="hi">👋</div></h1><hr id="hr1"/>
+				<h2>Multidisciplinary Software Developer</h2>
+				<h3>• Linux • Backend • Systems</h3><hr id="hr2"/>
 			</header>
 		</div>
 	</foreignObject>
