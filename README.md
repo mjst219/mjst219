@@ -1,6 +1,6 @@
-<style>
-body{background:red;}
-</style>
+<div style="background:red;">
+  test
+</div>
 <a href="https://khialbaf.github.io/profile" target="_blank"><img src="tank/header.svg" style="width:100%;" alt="mst219"></a>
 <h3>Languages and Tools:</h3>
 <a href="#"><img src="tank/lang/php.svg" style="height:9%;" alt="php"/></a>
